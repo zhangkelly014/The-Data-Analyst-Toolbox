@@ -20,5 +20,5 @@ Tools that data analysts and business analysts work with
 
 ## Econometrics
 
-Econometric Theory and Methods (ETM), by R. Davidson and J. G.Mackinnon, Oxford University Press.
+Econometric Theory and Methods (ETM), by R. Davidson and J. G.Mackinnon, Oxford University Press.    
 Econometric Analysis (EA), by W.H. Greene, New York, Macmillan
