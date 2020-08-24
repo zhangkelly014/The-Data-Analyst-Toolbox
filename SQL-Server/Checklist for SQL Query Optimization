@@ -1,0 +1,38 @@
+1. Avoid using SELECT * Only Select Fields You Need   
+ 
+2. Use LIMIT to sample query results   
+
+3. Use wildcards at the end of a phrase only   
+
+4. Making joins less complicated   
+
+5. Reduce nested views to reduce lags   
+
+6. Data pre-staging   
+
+7. Don’t count everything in the table   
+
+8. Check Indexes
+
+9. Limit Size of Your Working Data Set. 
+- Examine the tables used in the SELECT statement to see if you can apply filters in the WHERE clause of your statement. 
+
+10. Remove Unnecessary Tables
+
+11. Remove OUTER JOINS
+
+12. Remove Calculated Fields in JOIN and WHERE Clauses
+
+13. Avoid using OR in the WHERE-clause if not all colums have an index
+
+14. Avoid using NOT IN. Instead use EXIST, NOT EXIST, IN or LEFT OUTER JOIN with a check for a NULL condition
+
+15. Avoid using IN when EXISTS is also possible
+
+16. Avoid using IN when BETWEEN is also possible
+
+17. Avoid using SUBSTRING in the WHERE-clause. If possible use LIKE instead
+
+18. Don't use ORDER BY if you don't really need it
+
+19. In case using LIKE on CHAR of VARCHAR colums quite often consider using the full-text search option
